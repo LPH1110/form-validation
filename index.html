@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Form validation</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <link rel="stylesheet" href="./assets/css/validation.css" />
+  </head>
+  <body>
+    <main>
+      <div class="modal">
+        <div class="modal_overlay"></div>
+        <div class="modal_body">
+          <div
+            class="poster"
+            style="background-image: url(./assets/images/poster.jpg)"
+          ></div>
+          <div class="auth_wrapper">
+            <div class="auth_header">
+              <h4 class="auth_heading">Welcome back!</h4>
+            </div>
+
+            <form id="form-1" action="#" class="form-control">
+              <div class="form-group">
+                <input
+                  class="input_inner"
+                  id="email"
+                  name="email"
+                  type="text"
+                  placeholder="Email"
+                />
+                <span class="form_message"></span>
+              </div>
+              <div class="form-group">
+                <input
+                  class="input_inner"
+                  type="password"
+                  placeholder="Password"
+                  id="password"
+                  name="password"
+                />
+                <span class="form_message"></span>
+              </div>
+              <div class="forgot_password-wrapper">
+                <span class="forgot_password-inner">Forgot password?</span>
+              </div>
+              <button class="submit-btn" type="submit">Log in</button>
+            </form>
+
+            <div class="auth_liner">
+              <span class="liner liner-left"></span>
+              <p class="liner_text">Log in with</p>
+              <span class="liner liner-right"></span>
+            </div>
+
+            <div class="auth_social-wrapper">
+              <button class="social">
+                <img
+                  src="https://s3.us-west-2.amazonaws.com/static.rfstat.com/renderforest/images/v2/sign-up/google-icon.svg"
+                  alt="Google"
+                  class="social_thumbnail"
+                />
+                <span class="social_text"></span>
+              </button>
+              <button class="social">
+                <img
+                  src="https://s3.us-west-2.amazonaws.com/static.rfstat.com/renderforest/images/v2/sign-up/fb-icon.svg"
+                  alt="Facebook"
+                  class="social_thumbnail"
+                />
+                <span class="social_text"></span>
+              </button>
+              <button class="social">
+                <img
+                  src="https://s3.us-west-2.amazonaws.com/static.rfstat.com/renderforest/images/v2/sign-up/apple-icon.svg"
+                  alt="Apple"
+                  class="social_thumbnail"
+                />
+                <span class="social_text"></span>
+              </button>
+            </div>
+
+            <div class="auth_footer">
+              <div class="footer_terms-of-service">
+                By continuing, you agree to Chinchin's
+                <a href="#" class="hyperlink">Terms of Service</a> and
+                <a href="#" class="hyperlink">Privacy Policy</a>
+              </div>
+
+              <div class="footer_signup">
+                <span class="footer_title">Don't have an account?</span>
+                <span id="toggeHyperlink" class="hyperlink">Sign Up</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="https://cdn.jsdelivr.net/gh/LPH1110/form-validation@main/assets/scripts/script.js" />
+  </body>
+</html>

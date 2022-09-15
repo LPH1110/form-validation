@@ -1,0 +1,11 @@
+.form_message {
+  display: flex;
+  color: red;
+  margin-left: 4px;
+  margin-top: 4px;
+  font-size: 1.05rem;
+}
+
+.invalid {
+  border-color: red;
+}
