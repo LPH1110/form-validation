@@ -123,6 +123,6 @@ Validator({
     Validator.minLength("#password", 8),
   ],
   onSubmit(data) {
-    console.log(data);
+    console.log("submitted data: " + data);
   },
 });
